@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cascaron</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+
+    <nav class="autohide navbar navbar-expand-lg bg-dark navbar-dark " id="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="../image/Cascaron_logo.svg">
+        </a>
+
+        <ul class="nav navbar-nav navbar-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Certification</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Feedback</a>
+            </li>
+
+        </ul>
+
+
+    </nav>
+    <div class="container-fluid">
+        <div class="row" style="background-color:black;">
+            <div class="col customcol" style="background-color:lavender;">
+                <div class="content">
+                    <h1>Espresso</h1>
+                    <p>Espresso - A web framework that compatible to C++14 and above. Espresso+ compiler which combines
+                        espresso code and C++ and converts to executable code, c++/stl headers can easily be included in
+                        espresso source files. </p>
+                    <p>This web framework accept callback function as an argument. Distributed to apt repository from
+                        where can be installed on Linux system. </p>
+                    <br>
+                    <button>Get Started</button>
+                </div>
+
+            </div>
+            <div class="col customcol" style="background-color:#32383e;">
+
+                <div class="testCodes">
+                    <p class="code">
+                        <!-- <code>    <span class="yellow">auto<span class="white"> espresso = <span class="yellow">import<span class="white">(<span class="red">"espresso"<span class="white">).</span></span></span></span></span></span></span></code> -->
+                        <code> <span class="yellow">auto<span class="white"> app = espresso()(<span
+                                        class="red">"http"<span class="white">);</span></span></span></code>
+                        <code> <span class="white"> app.get(<span class="red">"/"<span class="white">, <span
+                                            class="green">function<span class="white">(request, response, err){
+                                            </span></span></span></span></span></code>
+                        <code> &emsp;&emsp;&emsp;&emsp;&emsp;<span class="green">if<span class="white">(err ==
+                                    ERROR){</span></span></code>
+                        <code> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="white">console.err(<span
+                                    class="red">"error: "<span class="white">, err );</span></span></span></code>
+                        <code> &emsp;&emsp;&emsp;&emsp;&emsp;<span class="white">}<span class="green">else<span
+                                        class="white">{</span></span></span></code>
+                        <code> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span class="white">response.send(<span
+                                    class="red">"hello world"<span class="white">);</span></span></span></code>
+                        <code> &emsp;&emsp;&emsp;&emsp;&emsp;<span class="white">}</span></code>
+                        <code> <span class="white">});</span></code>
+                        <code> <span class="white"> app.run(<span class="red">"8080"<span class="white">, <span
+                                            class="green">function<span
+                                                class="white">(err){</span></span></span></span></span></code>
+                        <code> &emsp;&emsp;&emsp;&emsp;&emsp;<span class="white">console<span class="white">.log(<span
+                                        class="red">"Server started at "<span class="white">, <span
+                                                class="red">8080<span class="white">
+                                                    );</span></span></span></span></span></span></code>
+                        <code> <span class="white">});</span></code>
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="text-center">
+            Cascaron
+        </h1>
+        <br>
+
+        <div class="row">
+
+            <div class="col-sm-4">
+                <h3>Espresso</h3>
+                <p>A web framework that compatible to C++14 and above, for that need to install latest version of
+                    GNU-GCC-7.5 or above.</p>
+                <p>This tutorial will guide every single step for installation and will guide you to build a sample
+                    mini
+                    project with details about the code structure. Espresso+ compiler which combines espresso code
+                    and
+                    C++ and converts to executable code.</p>
+                <p>Espresso+ doesn't have C++ compiler, if there is no GNU compiler it is not possible to execute
+                    Espresso code</p>
+                <p>anyways because Espresso framework is built on the top of C++14 and C++17 and so need to upgrade
+                    your
+                    C++ compiler to latest version. So Espresso framework could possible to embed C++ code also.</p>
+                <p>The structure of semantics are very concise and readable that makes it's beauty. Distributed to
+                    apt
+                    repository from where can be installed on Linux system.</p>
+                <br>
+                <button>Get Started</button>
+            </div>
+            <div class="col-md-4">
+                <h3>Libwebc++</h3>
+                <p> </p>
+                <button class="middle-panel-button">Coming Soon</button>
+            </div>
+            <div class="col-md-4">
+                <h3>Experimental library</h3>
+                <p> </p>
+                <p> </p>
+                <button class="middle-panel-button">Coming Soon</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+        <h1 class="text-center">Installation</h1>
+
+        <div class="row">
+            <div class="col-sm-5" style="background-color:lavender;">$ sudo apt-get install gcc-7.5.0 </div>
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-5" style="background-color:lavender;">$ sudo apt-get install espresso
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <p> &#169;All Rights are Reserved</p>
+    </div>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
