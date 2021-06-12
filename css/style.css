@@ -1,3 +1,19 @@
+/*  Following codes are by defaults */
+/* 
+@media screen and (max:2000px) {
+
+    .container {
+        padding-left: 48% !important;
+        padding-right: 48% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+ */
+
+
+
+
 .footer {
 
     /* position: fixed; */
@@ -18,11 +34,99 @@ nav {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+
 }
+
+div.slidder {
+    background-color: #efefefb0 !important;
+}
+
+
 
 .customcol {
     text-align: center;
     border-radius: 20px;
-    padding: 30px;
+    padding: 64px;
     margin: 5px;
+}
+
+div.testCodes p.codes,
+code {
+    color: white !important;
+}
+
+.white {
+    color: white;
+}
+
+.yellow {
+    color: #cc6600;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.content>h1 {
+    color: #4d4d4d;
+    margin: 16px auto;
+    font-size: 52px;
+    font-weight: bold;
+
+
+}
+
+.content>p {
+    display: block;
+    margin: 8px auto;
+    font-size: 16px;
+}
+
+.content button {
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin-top: 37px;
+    width: 140px;
+    height: 42px;
+    background: #545454;
+    transition: 0.5s;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444c55;
+    color: #fff;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-color: #272b3f;
+    border: #444c55 solid 1px;
+
+}
+
+.h2 {
+    /* margin-top: 10px; */
+    color: #4d4d4d;
+    font-size: 35px;
+    font-family: auto;
+}
+
+.p {
+    margin-top: 10px;
+    /* font-size: 16px; */
+    color: #272b3f;
+    font-family: auto;
+    text-align: left;
+    margin-left: 3%;
 }
