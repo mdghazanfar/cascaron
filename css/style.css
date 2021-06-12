@@ -39,8 +39,17 @@ nav {
 
 div.slidder {
     background-color: #efefefb0 !important;
+    padding: 35px;
 }
 
+.testCodes {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #32383e;
+    border-radius: 10px;
+    display: flex;
+
+}
 
 
 .customcol {
@@ -80,10 +89,11 @@ code {
 
 }
 
+
 .content>p {
     display: block;
-    margin: 8px auto;
-    font-size: 16px;
+    margin: auto;
+    font-size: .90rem;
 }
 
 .content button {
@@ -95,7 +105,7 @@ button {
     margin-top: 37px;
     width: 140px;
     height: 42px;
-    background: #545454;
+    background: #32383e;
     transition: 0.5s;
     color: #fff;
     border: none;
@@ -129,4 +139,92 @@ button:hover {
     font-family: auto;
     text-align: left;
     margin-left: 3%;
+}
+
+.install {
+    padding-top: 48px;
+    border-top: 1px solid #ccc;
+}
+
+.install h1 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 300%;
+    font-family: auto;
+
+}
+
+.h6,
+h6 {
+    font-size: .8rem;
+}
+
+.end-item {
+    display: flex;
+    align-items: end;
+    align-self: flex-end;
+    text-align: center;
+    margin: 2px;
+}
+
+.col-sm-5 {
+    margin-left: 60%;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.customcol_hide {
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.description {
+    display: flex;
+
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 300%;
+    font-family: auto;
+    color: #32383e;
+    font-weight: bold;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+}
+
+.content {
+    border-radius: 10px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.card-body {
+    border: #444c55 solid 1px;
+    border-top-color: rgb(68, 76, 85);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(68, 76, 85);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(68, 76, 85);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(68, 76, 85);
+    border-left-style: solid;
+    border-left-width: 1px;
+    text-align: center;
+
 }
