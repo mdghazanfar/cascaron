@@ -192,3 +192,11 @@ button:hover {
 .Blue {
     color: Blue;
 }
+
+h2 {
+
+    font-size: 200%;
+    font-family: auto;
+    color: #32383e;
+    font-weight: bold;
+}

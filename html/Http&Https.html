@@ -143,70 +143,11 @@
             <hr>
         </div>
         <div class="getCode">
-            <ul class="list-Mark" style="list-style-type: disc;">
-                <li>
-                    <a href="#" class="green">Module: espresso</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Console</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Console: console.log</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Console: console.error</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Default type</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Type: auto</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Type: var</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Type: Integer</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Type: String</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Typeof</a>
-                </li>
-                <li>
-                    <a href="#" class="green">New operator</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Smart pointer</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Scope</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Functions</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Callbacks function</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Lambda function</a>
-                </li>
-                <li>
-                    <a href="#" class="green">Json object</a>
-                </li>
-            </ul>
-            <br>
             <div class="list">
                 <h2 style="margin-bottom: 24px">Macros</h2>
                 <ul class="list-Marks" style="list-style-type: disc;">
-                    <li><a href="#" class="green">Macros</a></li>
-                    <li><a href="#" class="green">Single-statement macro</a></li>
-                    <li><a href="#" class="green">Multi-statements macro</a></li>
-                    <li><a href="#" class="green">Warning macro</a></li>
-                    <li><a href="#" class="green">Current directory</a></li>
-                    <li><a href="#" class="green">_filename</a></li>
                     <li><a href="#" class="green">_filepath</a></li>
+                    <li><a href="#" class="green">_filename</a></li>
                     <li><a href="#" class="green">_pathname</a></li>
                     <li><a href="#" class="green">_dirname</a></li>
                 </ul>
@@ -217,9 +158,19 @@
                 <ul class="list-Marks" style="list-style-type: disc;">
                     <li><a href="#" class="green">espresso()</a></li>
                     <li><a href="#" class="green">app.module()</a></li>
+                    <li><a href="#" class="green">app.use()</a></li>
                 </ul>
             </div>
             <br>
+            <div class="list">
+                <h2 style="margin-bottom: 24px">RestFul Methods</h2>
+                <ul class="list-Marks" style="list-style-type: disc;">
+                    <li><a href="#" class="green">app.get()</a></li>
+                    <li><a href="#" class="green">app.post()</a></li>
+                    <li><a href="#" class="green">app.put()</a></li>
+                    <li><a href="#" class="green">app.delete()</a></li>
+                </ul>
+            </div>
             <div class="command">
                 <br>
                 <h2>Module</h2>
@@ -270,10 +221,82 @@
                     <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;//
                         Integer</p>
                 </div>
+                <h2> Typeof</h2>
+                <p> <span class="green"> console.log:</span> function</p>
+                <div class="code" style="margin-bottom: 40px">
+                    <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
+                    <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// var
+                    </p>
+                </div>
+                <h2>New</h2>
+                <br>
+                <p> Allocates dynamic memory allocation, __new macro is allocates a memory on heap and returns a pointer
+                    pointing to.</p>
+                <div class="code" style="margin-bottom: 40px">
+                    <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
+                    <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// var
+                    </p>
+                </div>
+                <h2>Functions</h2>
+                <p> Espresso provides multiple function like: Callback function, Anonymous function and Lambda function
+                </p>
+                <P> <span class="green"> Callback function:</span></P>
+                <div class="code" style="margin-bottom: 40px">
+                    <p>
+                        <code> <span class="yellow">auto<span class="black"> espresso =
+                                    <span class="include">import<span class="black">(<span class="red">"espresso"<span
+                                                    class="black">);</span></span></span></span></span></span></code>
+                        <code> <br><span class="green">void <span class="black">
+                                    <span class="black">say(<span class="green">void<span class="black">(*foo)(<span
+                                                    class="green">char<span
+                                                        class="black">*)){</span></span></span></span></span></span></span></code>
+                        <code> <br>&emsp;&emsp;&emsp;<span class="black">foo(<span class="red">"hello world"<span
+                                        class="black">);</span></span></span></code>
+                        <code> <br><span class="black">}</span></code>
+                        <code> <br><br><span class="black">say( <span class="green"> function<span class="black">(msg){
+                                    </span></span></span></code>
+                        <code> <br>&emsp;&emsp;&emsp;console<span class="black">.log(msg);</span></code>
+                        <code> <br><span class="black">});</span></code>
+                        <code> <span class="comment"> //Call the say() and prints hello world </span></code>
+                    </p>
+                </div>
+                <p><span class="green">Single-statement macro</span> ( put c++ code after colon) </p>
+                <div class="code" style="margin-bottom: 40px">
+                    <p> <span class="Blue">__cplusplus:</span> <span class="yellow">const</span>
+                        <span class="green">char*</span>s =<span class="yellow">"hello __cplusplus macro"</span>;
+                    </p>
+                </div>
+                <p> <span class="green">Multi-statements macro</span> ( Put multiple c++ codes in inside the
+                    curly-braces)</p>
+                <div class="code" style="margin-bottom: 40px">
+                    <p><span class="Blue">__cplusplus</span>{<br> &nbsp;&nbsp;
+                        <span class="yellow"> const</span><span class="green"> char*</span> s =
+                        <span class="red"> "hello __cplusplus macro"</span> ; <br> &nbsp;&nbsp;
+                        // do some more stuffs with C++... <br>
+                        }
+                        <br> <span class="yellow"> console.log</span> (s); &nbsp; &nbsp;// Correct</p>
+                </div>
+                <p> <span class="green">Comile-time warning: </span></p>
+                <div class="code" style="margin-bottom: 40px">
+                    <p> <span class="green"> function</span> say() { <br> &nbsp; &nbsp; &nbsp;
+                        <span class="yellow"> console.log</span> ( <span class="red"> " hello " </span> ); <br>
+                        } &nbsp; // Warning </p>
+                </div>
+                <h2> Current directory</h2>
+                <br>
+                <p> Espresso has it's in-built current directory path, __dir return current dirname where main
+                    application running.</p>
+                <div class="code" style="margin-bottom: 40px">
+                    <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
+                    <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// var
+                    </p>
+                </div>
+
             </div>
         </div>
-
-
         <br>
         <br>
         <div class="text-right">
@@ -282,15 +305,15 @@
                     <a href="#">Next</a>
                 </li>
                 <li id="next">
-                    <a href="./expresso.html">Prev</a>
+                    <a href="./fundamental.html">Prev</a>
                 </li>
             </ul>
         </div>
 
-
-
-
     </div>
+
+
+
 </body>
 
 </html>

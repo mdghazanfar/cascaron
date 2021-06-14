@@ -193,7 +193,14 @@ button:hover {
     color: Blue;
 }
 
-.activeitem {
-    background-color: #444c55;
-    color: #fff !important;
+h2 {
+
+    font-size: 200%;
+    font-family: auto;
+    color: #32383e;
+    font-weight: bold;
+}
+
+a {
+    color: black;
 }
