@@ -58,12 +58,12 @@
     <div class="docs_content">
         <div class="docs_table">
             <h2> Espresso Tutorial</h2>
-            <ul>
-                <li>
-                    <a href="#"> Get started: Espresso </a>
+            <ul class=" list-inline docs">
+                <li class="activeitem">
+                    <a href="./doc.html"> Get started: Espresso </a>
                 </li>
                 <li>
-                    <a href="#"> Espresso and c++ </a>
+                    <a href="./expresso.html"> Espresso and c++ </a>
                 </li>
                 <li>
                     <a href="#"> Fundamentals</a>
@@ -132,14 +132,14 @@
     <div class="cont_explain">
         <h1> Espresso: Get started</h1>
         <div class="exp">
-            <p> Espresso - A web framework that compatible to C++14 and above, for that need
+            <p> Espresso - A web framework that compatible to<span class="green"> C++14 </span>and above, for that need
                 to install latest version of GNU-GCC-7.5 or above.
                 This tutorial will guide every single step for installation and will
                 guide you to build a sample mini project with details about the code structure.
             </p>
-            <p> Espresso+ compiler which combines espresso code and C++ and converts to
+            <p> <span class="green">Espresso+ </span>compiler which combines espresso code and C++ and converts to
                 executable code. In
-                Espresso+ doesn't have C++ compiler, if there is no GNU compiler it is not
+                <span class="green"> Espresso+ </span>doesn't have C++ compiler, if there is no GNU compiler it is not
                 possible to execute Espresso code anyways because Espresso framework is built on the top of C++14 and
                 C++17 and so need to upgrade your C++ compiler to latest version. So Espresso framework could possible
                 to embed C++ code
@@ -242,18 +242,21 @@
             </p>
             <br>
             <div class="code">
-                <p>auto espresso = import("espresso");   //    Standard</p>
-                <p> auto user-defined_lib = import("your-filename.es");   //    User-defined</p>
+                <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);   //   
+                    Standard</p>
+                <p> <span class="yellow">auto</span> user-defined_lib = import(<span
+                        class="red">"your-filename.es"</span> ) ;   //    User-defined</p>
             </div>
             <br>
             <p> After creation the object then operator () is called that returns the main espresso application object
                 which is again one-time created. </p>
 
             <div class="code ">
-                auto app = espresso();
+                <p> <span class="yellow">auto </span>app = espresso();</p>
             </div>
             <br>
-            <p> Espresso application object has Restfull Methods: GET, POST, DELETE and PUT Method that takes two
+            <p> Espresso application object has Restfull Methods:<span class="green">GET, POST, DELETE </span>and <span
+                    class="green">PUT</span> Method that takes two
                 arguments: a delimeter and a anonymous callback function. The anonymous callback function takes objects:
                 request, response and error as parameters. The third argument is flag: error which is optional.</p>
 
@@ -302,10 +305,10 @@
         <div class="text-right">
             <ul class="list-inline nextPrev">
                 <li id="prev">
-                    <a href="#">Prev</a>
+                    <a href="./expresso.html">Next</a>
                 </li>
                 <li id="next">
-                    <a href="expressoandc++.html">Next</a>
+                    <a href="#">Prev</a>
                 </li>
             </ul>
         </div>
