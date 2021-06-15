@@ -64,6 +64,7 @@ button:hover {
     font-size: 16px;
     width: 20%;
     vertical-align: top;
+
 }
 
 
@@ -72,7 +73,8 @@ button:hover {
     background-color: #fff;
     position: absolute;
     right: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
+    margin-top: 90px;
 
 }
 
@@ -95,7 +97,7 @@ button:hover {
     background-color: lavender;
     border-radius: 10px;
     display: flex;
-    margin-right: 40%;
+    margin-right: 1%;
 
 }
 
@@ -122,7 +124,7 @@ code {
 
 .code {
     background-color: lavender;
-    margin-right: 40%;
+    margin-right: 1%;
     font-size: 1rem;
     padding: 9px;
     border-radius: 9px;
@@ -143,11 +145,13 @@ code {
 }
 
 .nextPrev>li>a:hover {
-    background-color: green;
+    background-color: #c87137;
+    border-color: #c87137;
     color: #fff;
-
+    text-decoration: none;
 
 }
+
 
 
 .nextPrev {
@@ -201,9 +205,9 @@ h2 {
     font-weight: bold;
 }
 
-a {
+/* a {
     color: black;
-}
+} */
 
 .docs li {
     list-style: none;
@@ -219,4 +223,14 @@ a {
 
 .sty li a {
     text-decoration: none;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #c87137;
+    border-color: #c87137;
+}
+
+.comment {
+    color: #666;
 }

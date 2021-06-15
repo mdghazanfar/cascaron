@@ -39,15 +39,17 @@ nav {
 
 div.slidder {
     background-color: #efefefb0 !important;
-    padding: 35px;
+    padding: 50px;
+
 }
 
 .testCodes {
-    padding: 25px;
+    padding: 30px;
     border-radius: 20px;
     background-color: #32383e;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
+    margin-top: 50px;
 
 }
 
@@ -57,6 +59,7 @@ div.slidder {
     border-radius: 20px;
     padding: 64px;
     margin: 5px;
+
 }
 
 div.testCodes p.codes,
@@ -117,6 +120,14 @@ button:hover {
     background-color: #444c55;
     color: #fff;
 }
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #c87137;
+    border-color: #c87137;
+}
+
+
 
 .card {
     background-color: rgb(255, 255, 255);
@@ -185,7 +196,7 @@ h6 {
 .description {
     display: flex;
 
-    margin: 10px;
+    margin: 15px;
 }
 
 .text-center {
@@ -204,6 +215,7 @@ h6 {
     border-bottom-color: white;
     border-left-color: white;
 }
+
 
 .content {
     border-radius: 10px;
@@ -227,11 +239,4 @@ h6 {
     border-left-width: 1px;
     text-align: center;
 
-}
-
-@media only screen and (width: 1240px) {
-    .navbar-nav.navbar-center {
-        flex-direction: column;
-
-    }
 }

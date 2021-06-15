@@ -21,7 +21,7 @@
 <body>
 
 
-    <nav class="autohide navbar navbar-expand-lg bg-dark navbar-dark " id="navbar">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navbar">
         <a class="navbar-brand" href="#">
             <img src="../image/Cascaron_logo.svg">
         </a>
@@ -211,9 +211,9 @@
                 <div class="code" style="margin-bottom: 40px">
                     <p><span class="yellow"> auto </span>espresso = import(<span class="red"> "espresso" </span>);
                         &nbsp;
-                        &nbsp; // Standard</p>
+                        &nbsp;<span class="comment">  //&nbsp; &nbsp;Standard</span></p>
                     <p> <span class="yellow">auto</span> espresso = import( <span class="red">filename.es </span>);
-                        &nbsp;&nbsp; //User-defined</p>
+                        &nbsp;&nbsp;<span class="comment">  // &nbsp; &nbsp;User-defined </span></p>
                 </div>
 
                 <p> <span class="yellow">Bind: </span>with . operator and return http protocol object</p>
@@ -232,7 +232,7 @@
                     http protocol</p>
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow"> console.log </span>( <span class="green"> typeof</span> (app)); &nbsp;
-                        &nbsp; &nbsp;// Return http</p>
+                        &nbsp; &nbsp;<span class="comment"> // &nbsp;&nbsp;Return http</span></p>
 
                 </div>
                 <br>
@@ -257,8 +257,9 @@
                     <p> <span class="Blue">__cplusplus </span>{<br><br> &nbsp;&nbsp;&nbsp;&nbsp;<span
                             class="yellow">const</span><span class="green">
                             char*</span> s = <span class="red">"hello __cplus macro"</span> ; <br><br>
-                        // do some more stuffs with C++ ... <br><br>}<br><br>
-                        console.log(s); &nbsp;// collect
+                        <span class="comment">  //&nbsp; &nbsp; do some more stuffs with C++ ...
+                        </span><br><br>}<br><br>
+                        console.log(s); &nbsp;<span class="comment"> // &nbsp;&nbsp;collect</span>
                     </p>
                 </div>
                 <p> <span class="green"> Compile-time Warning</span></p>
@@ -266,7 +267,9 @@
                     <p> <span class="green"> function</span> says() &nbsp;{<br> <br> &nbsp;&nbsp;&nbsp;&nbsp;<span
                             class="green">
                             char*</span> s
-                        =<span class="red"> "hello" </span>; <br> <br>} &nbsp; &nbsp; // Warning </p>
+                        =<span class="red"> "hello" </span>; <br> <br>} &nbsp; &nbsp; <span class="comment"> //
+                            &nbsp;&nbsp; Warning </span>
+                    </p>
                 </div>
                 <br>
                 <div class="code" style="margin-bottom: 40px">
@@ -274,7 +277,8 @@
                             class="green">
                             char*</span> s
                         =<span class="red"> "hello" </span>;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <span class="yellow"> return</span> s; <br> <br>} &nbsp; &nbsp; // NO Warning</p>
+                        <span class="yellow"> return</span> s; <br> <br>} &nbsp; &nbsp; <span class="comment"> //&nbsp;
+                            &nbsp; NO Warning</span></p>
                 </div>
             </div>
             <div class="text-right">

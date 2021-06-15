@@ -23,7 +23,7 @@
 <body>
 
 
-    <nav class="autohide navbar navbar-expand-lg bg-dark navbar-dark " id="navbar">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navbar">
         <a class="navbar-brand" href="#">
             <img src="../image/Cascaron_logo.svg">
         </a>
@@ -186,17 +186,17 @@
                 </p>
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso"</span>);
-                        &nbsp;&nbsp;// Standard</p>
-                    <p><span class="yellow">console.log</span>(<span class="Blue">_dir</span>) &nbsp;&nbsp;// console is
-                        instatiated and macro
-                        _dir is initialized</p>
+                        &nbsp;&nbsp;<span class="comment"> //&nbsp; &nbsp;Standard</span></p>
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_dir</span>) &nbsp;&nbsp;<span
+                            class="comment"> //&nbsp; &nbsp;console is
+                            instatiated and macro
+                            _dir is initialized</span></p>
                 </div>
                 <h2> Console </h2>
                 <p>Console is super module in which log function and err function are defined. </p>
                 <p> <span class="green"> console.log:</span>function</p>
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto</span> espresso = import(<span class="red">"espresso"</span>);</p>
-
                     <p> <span class="yellow">console.log</span>(<span class="red">"hello world"</span>)</p>
                 </div>
                 <h2> Default type</h2>
@@ -206,29 +206,32 @@
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
                     <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
-                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// int
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;<span
+                            class="comment"> // &nbsp; &nbsp;int</span>
                     </p>
                 </div>
                 <p> <span class="green">var</span> type:</p>
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
                     <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
-                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// var
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;<span
+                            class="comment"> //&nbsp; &nbsp;var</span>
                     </p>
                 </div>
                 <p> <span class="green">Integer</span> type:</p>
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
                     <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
-                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;//
-                        Integer</p>
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;<span
+                            class="comment"> //&nbsp; &nbsp;Integer</span></p>
                 </div>
                 <h2> Typeof</h2>
                 <p> <span class="green"> console.log:</span> function</p>
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
                     <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
-                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// var
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;<span
+                            class="comment"> //&nbsp; &nbsp;var</span>
                     </p>
                 </div>
                 <h2>New</h2>
@@ -238,7 +241,8 @@
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
                     <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
-                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// var
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;<span
+                            class="comment"> //&nbsp; &nbsp;var</span>
                     </p>
                 </div>
                 <h2>Functions</h2>
@@ -261,7 +265,8 @@
                                     </span></span></span></code>
                         <code> <br>&emsp;&emsp;&emsp;console<span class="black">.log(msg);</span></code>
                         <code> <br><span class="black">});</span></code>
-                        <code> <span class="comment"> //Call the say() and prints hello world </span></code>
+                        <code> <span class="comment"> //&nbsp; &nbsp;Call the say() and prints hello world
+                            </span></code>
                     </p>
                 </div>
                 <p><span class="green">Single-statement macro</span> ( put c++ code after colon) </p>
@@ -275,16 +280,17 @@
                 <div class="code" style="margin-bottom: 40px">
                     <p><span class="Blue">__cplusplus</span>{<br> &nbsp;&nbsp;
                         <span class="yellow"> const</span><span class="green"> char*</span> s =
-                        <span class="red"> "hello __cplusplus macro"</span> ; <br> &nbsp;&nbsp;
-                        // do some more stuffs with C++... <br>
+                        <span class="red"> "hello __cplusplus macro"</span> ; <br> &nbsp;&nbsp;<span class="comment"> 
+                            // &nbsp; &nbsp;do some more stuffs with C++... </span><br>
                         }
-                        <br> <span class="yellow"> console.log</span> (s); &nbsp; &nbsp;// Correct</p>
+                        <br> <span class="yellow"> console.log</span> (s); &nbsp; &nbsp;<span
+                            class="comment"> //&nbsp;&nbsp; Correct</span></p>
                 </div>
                 <p> <span class="green">Compile-time warning: </span></p>
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="green"> function</span> say() { <br> &nbsp; &nbsp; &nbsp;
                         <span class="yellow"> console.log</span> ( <span class="red"> " hello " </span> ); <br>
-                        } &nbsp; // Warning </p>
+                        } &nbsp;<span class="comment">  //&nbsp; &nbsp;Warning </span></p>
                 </div>
                 <h2> Current directory</h2>
                 <br>
@@ -293,7 +299,8 @@
                 <div class="code" style="margin-bottom: 40px">
                     <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);</p>
                     <p> <span class="yellow">auto n </span>= <span class="red"> 123 </span>; </p>
-                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;// var
+                    <p><span class="yellow">console.log</span>(<span class="Blue">_typeof</span> n ) &nbsp; &nbsp;<span
+                            class="comment"> //&nbsp; &nbsp;var</span>
                     </p>
                 </div>
 

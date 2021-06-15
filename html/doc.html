@@ -15,6 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/docs.css">
+    <link rel="stylesheet" href="../css/expresso.css">
 
 
 </head>
@@ -22,7 +23,7 @@
 <body>
 
 
-    <nav class="autohide navbar navbar-expand-lg bg-dark navbar-dark " id="navbar">
+    <nav class=" navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navbar">
         <a class="navbar-brand" href="#">
             <img src="../image/Cascaron_logo.svg">
         </a>
@@ -157,13 +158,15 @@
                 Check GCC version already install, must have gcc-7.5 or above
             </p>
             <div class="code ">
-                <p> $ g++ -version   // g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0 </p>
+                <p> $ g++ -version <span class="comment">  // &nbsp; &nbsp; g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+                    </span></p>
             </div>
             <br>
             <p>If there is not installed C++ compiler then execute following command as: </p>
             <div class="code">
-                <p> $ sudo apt-get install gcc-7.5.0 &nbsp; &nbsp; &nbsp; &nbsp;// For Installation </p>
-                <p> $ sudo apt-get install gcc-7.5.0     // For Upgrade</p>
+                <p> $ sudo apt-get install gcc-7.5.0 &nbsp; &nbsp; &nbsp; &nbsp;<span class="comment"> // &nbsp; &nbsp;
+                        For Installation </span></p>
+                <p> $ sudo apt-get install gcc-7.5.0   <span class="comment">   // &nbsp; &nbsp; For Upgrade </span></p>
             </div>
             <br>
             <p>Once GCC compiler successfully installed then execute folowing command for Espresso Compiler as:</p>
@@ -173,7 +176,9 @@
             <br>
             <p> To know which version installed:</p>
             <div class="code">
-                <p> $ espresso+   --version     // installed version:  Espresso_1.0.0-v</p>
+                <p> $ espresso+   --version   <span class="comment">   // &nbsp; &nbsp;installed version: 
+                        Espresso_1.0.0-v </span>
+                </p>
             </div>
 
 
@@ -242,10 +247,12 @@
             </p>
             <br>
             <div class="code">
-                <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);   //   
-                    Standard</p>
+                <p> <span class="yellow">auto </span>espresso = import(<span class="red">"espresso" </span>);  <span
+                        class="comment">  //   
+                        &nbsp; &nbsp; Standard </span></p>
                 <p> <span class="yellow">auto</span> user-defined_lib = import(<span
-                        class="red">"your-filename.es"</span> ) ;   //    User-defined</p>
+                        class="red">"your-filename.es"</span> ) ; <span class="comment">   // &nbsp;&nbsp;  
+                        User-defined </span></p>
             </div>
             <br>
             <p> After creation the object then operator () is called that returns the main espresso application object
