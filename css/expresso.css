@@ -200,3 +200,11 @@ h2 {
     color: #32383e;
     font-weight: bold;
 }
+
+.docs li {
+    list-style: none;
+}
+
+.docs li a {
+    text-decoration: none;
+}

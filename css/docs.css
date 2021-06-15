@@ -204,3 +204,19 @@ h2 {
 a {
     color: black;
 }
+
+.docs li {
+    list-style: none;
+}
+
+.docs li a {
+    text-decoration: none;
+}
+
+/* .sty li {
+    list-style: none;
+} */
+
+.sty li a {
+    text-decoration: none;
+}

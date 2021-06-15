@@ -228,3 +228,10 @@ h6 {
     text-align: center;
 
 }
+
+@media only screen and (width: 1240px) {
+    .navbar-nav.navbar-center {
+        flex-direction: column;
+
+    }
+}
