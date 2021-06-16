@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
 nav {
     border-bottom: 20px solid white;
     /* box-shadow: 0px 0px 100px 0px rgb(245, 242, 242); */
@@ -180,9 +185,7 @@ button:hover {
 
 
 .docs>li>a:hover {
-    background-color: #32383e;
     color: #fff;
-
 }
 
 .docs {
@@ -204,8 +207,11 @@ h2 {
     font-weight: bold;
 }
 
-a {
+.docs li a {
     color: black;
+    display: block;
+    padding: 2 px;
+    padding-left: 10px;
 }
 
 .docs li {
@@ -216,9 +222,9 @@ a {
     text-decoration: none;
 }
 
-/* .sty li {
+.sty li {
     list-style: none;
-} */
+}
 
 .sty li a {
     text-decoration: none;
@@ -251,7 +257,7 @@ a {
 }
 
 .activeitem>a {
-    color: #fff;
+    color: #fff !important;
 }
 
 
@@ -261,4 +267,14 @@ a {
     margin-bottom: 12px;
     padding: 12px;
     background-color: #ccc;
+}
+
+.docs li:hover {
+    background-color: #444c55;
+    color: white
+}
+
+.docs {
+    margin: 0;
+    padding: 0
 }
