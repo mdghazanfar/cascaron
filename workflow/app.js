@@ -86,5 +86,5 @@ app.get("/templates/Industries_Services/Industries.html", function(req, res) {
 
 global.hostname = os.hostname();
 console.log(global.hostname);
-app.listen('8080', '0.0.0.0')
+app.listen('3000', '0.0.0.0')
 module.exports = app;
